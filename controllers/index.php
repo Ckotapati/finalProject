@@ -16,7 +16,7 @@ if ($action == 'register') {
 
 } else if($action=='register_student') {
 
-	$name = filter_input(INPUT_POST,'name');
+	$name = filter_input(INPUT_POST,'Name');
 	$birth_date = filter_input(INPUT_POST,'birth_date');
 	$gender = filter_input(INPUT_POST,'gender');
 	$email = filter_input(INPUT_POST,'email');
